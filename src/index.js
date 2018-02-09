@@ -20,7 +20,7 @@ export const createStore = (reducer) => {
     getState: getState,
     dispatch: dispatch,
     subscribe: subscribe,
-  }
+  };
 }
 
 function render(){
