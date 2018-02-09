@@ -7,6 +7,8 @@ import BandInput from './components/band_input_component';
 
 const store = createStore(bandReducer);
 
-function render() {
+const renderApp = () => {
   ReactDOM.render(<BandInput store={store}/>, document.getElementById('container'));
-}
+};
+
+
