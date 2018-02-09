@@ -8,7 +8,7 @@ export const createStore = (reducer) => {
 
   const dispatch = (action) => {
     state = reducer(state, action);
-    listners.forEach(listener => listener())
+    listners.forEach(listener => listener());
   };
 
   const subscribe = (listener) => {
@@ -21,7 +21,7 @@ export const createStore = (reducer) => {
     dispatch: dispatch,
     subscribe: subscribe,
   };
-}
+};
 
 function render(){
   ReactDOM.render(<InsertTopLevelComponent />, document.getElementById('container'))
