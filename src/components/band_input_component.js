@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import BandIndex from './band_index_component';
 
 class BandInput extends Component {
   constructor(props) {
