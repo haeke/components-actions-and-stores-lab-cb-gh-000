@@ -24,5 +24,5 @@ export const createStore = (reducer) => {
 };
 
 function render(){
-  ReactDOM.render(<InsertTopLevelComponent />, document.getElementById('container'))
+  ReactDOM.render(<InsertTopLevelComponent />, document.getElementById('container'));
 }
