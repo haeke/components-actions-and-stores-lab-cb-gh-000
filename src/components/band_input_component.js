@@ -4,6 +4,8 @@ class BandInput extends Component {
   render() {
     return (
       <div>Bands</div>
-    )
+    );
   }
 }
+
+export default BandInput;
