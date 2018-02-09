@@ -4,4 +4,4 @@ const BandIndex = (props) => {
   return;
 }
 
-export default BanedIndex;
+export default BandIndex;
