@@ -5,7 +5,7 @@ const BandIndex = (props) => {
     <li>
       {props.band.title}
     </li>
-  )
-}
+  );
+};
 
 export default BandIndex;
