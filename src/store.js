@@ -1,4 +1,4 @@
-import { render } from './index.js'
+import { render } from './index.js';
 
 export const createStore = (reducer) => {
   let state;
