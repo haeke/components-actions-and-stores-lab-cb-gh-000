@@ -24,7 +24,7 @@ class BandInput extends Component {
           <button type="submit">Submit</button>
         </form>
         <ul>
-          {this.props.store.getState().map((band, index) => <li key={index}>{band.title}</li>)}
+          {this.props.store.getState().map((band, index) => <BandIndex key={index} band={band} />)}
         </ul>
       </div>
     );
