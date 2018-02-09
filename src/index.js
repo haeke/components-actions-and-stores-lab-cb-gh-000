@@ -10,5 +10,5 @@ const store = createStore(bandReducer);
 const renderApp = () => {
   ReactDOM.render(<BandInput store={store}/>, document.getElementById('container'));
 };
-
-
+//this will update state when it is changed
+store.subscribe(renderApp);
