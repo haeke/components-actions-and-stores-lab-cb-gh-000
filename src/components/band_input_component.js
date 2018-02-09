@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 
 class BandInput extends Component {
+  constructor(props) {
+    super(props);
+
+    this.onSubmit = this.onSubmit.bind(this);
+  }
   onSubmit(ev) {
     ev.preventDefault();
     console.log('submitted something');
