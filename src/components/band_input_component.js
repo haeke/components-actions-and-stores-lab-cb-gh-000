@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class BandInput extends Component {
   constructor(props) {
     super(props);
-
+    //bind the context of this so that we can call the store prop
     this.onSubmit = this.onSubmit.bind(this);
 
   };
