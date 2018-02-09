@@ -10,7 +10,7 @@ class BandInput extends Component {
 
   onSubmit(ev) {
     ev.preventDefault();
-    console.log('submitted something');
+    this.props.store.dispatch({ type: 'ADD_BAND', payload: { title: event.target.children[1].value }});
   }
 
   render() {
