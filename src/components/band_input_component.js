@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
 class BandInput extends Component {
-  onSubmit() {
+  onSubmit(ev) {
+    ev.preventDefault();
     console.log('submitted something');
   }
+
   render() {
     return (
       <div>
