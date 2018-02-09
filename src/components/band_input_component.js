@@ -10,6 +10,7 @@ class BandInput extends Component {
 
   onSubmit(ev) {
     ev.preventDefault();
+    //use the dispatch method with the ADD_BAND action type - we pulled the title from the input form
     this.props.store.dispatch({ type: 'ADD_BAND', payload: { title: event.target.children[1].value }});
   }
 
