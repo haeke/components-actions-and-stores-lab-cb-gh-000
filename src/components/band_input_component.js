@@ -5,7 +5,9 @@ class BandInput extends Component {
     super(props);
 
     this.onSubmit = this.onSubmit.bind(this);
-  }
+
+  };
+
   onSubmit(ev) {
     ev.preventDefault();
     console.log('submitted something');
