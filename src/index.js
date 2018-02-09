@@ -13,7 +13,7 @@ export const createStore = (reducer) => {
 
   const subscribe = (listener) => {
     listener.push(listener);
-  }
+  };
 
   dispatch({});
   return {
