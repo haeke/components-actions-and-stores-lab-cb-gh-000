@@ -12,3 +12,4 @@ const renderApp = () => {
 };
 //this will update state when it is changed
 store.subscribe(renderApp);
+store.dispatch({});
